@@ -1,0 +1,28 @@
+#Điều khoản
+- Tuy nhiên, xin vui lòng không sử dụng plugin này vào các mục đích sau đây:
++ Không sử dụng cho mục đích xấu, như ẩn danh, cờ bạc, giao dịch trái pháp luật, lừa đảo, các mục đích xấu khác nhằm trục lợi, chiếm đoạt, tấn công, hay phá hoại bất cứ tổ chức hoặc cá nhân nào.
+
+#Từ chối trách nhiệm:
+- Tác giả của plugin này không chịu trách nhiệm cho mọi hoạt động bất hợp pháp và vi phạm pháp .
+
+#BẢNG MÃ LỖI:
+[01] - Cài đặt quyền riêng tư của người dùng không cho phép bạn làm điều này.
+[02] - Người dùng được cung cấp không phải là người liên hệ chung.
+[03] - Người dùng không tồn tại.
+[04] - Lỗi giá trị.
+[05] - Tài khoản chưa được đăng ký trong hệ thống.
+[06] - ID đối tượng không hợp lệ cho một người dùng.
+[07] - Người dùng này đã bị loại khỏi siêu nhóm / kênh này.
+[08] - Một trong những người dùng mà bạn cố gắng thêm đã ở trong quá nhiều kênh / siêu nhóm.
+[09] - Bạn bị cấm gửi tin nhắn trong siêu nhóm / kênh.
+[10] - Tài Khoản Telegram bị quét
+[11] - Tài khoản bị chặn chức năng tạm thời.
+[12] - Một trong những người dùng mà bạn cố gắng thêm đã ở trong quá nhiều kênh / siêu nhóm.
+[13] - You can't write in this chat.(Vui lòng kiểm tra lại link hoặc quyền thêm thành viên của nhóm)
+[14] - Kênh được chỉ định là riêng tư và bạn không có quyền truy cập vào kênh đó. Một lý do khác có thể là bạn đã bị cấm sử dụng nó.
+[15] - Tài khoản đã gửi quá nhiều yêu cầu .
+[16] - Cần có đặc quyền của quản trị viên trò chuyện để thực hiện điều đó trong cuộc trò chuyện được chỉ định.
+[17] - DataBaseLock.
+[18] - Các lỗi khác.
+
+Note: Gặp lỗi [10] thường nhóm có khả năng dính spam 90% => yêu cầu dừng kéo nhóm để tránh die acc và bay nhóm(Kinh nghiệm sương máu)
