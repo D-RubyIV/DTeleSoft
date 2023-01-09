@@ -1,13 +1,9 @@
 #Nếu kéo đơn luồng
 => Để tốc độ kéo bằng 0
 #Nếu kéo đa luồng
-=> Để mức 3-4 là ổn
+=> Để mức 4-5 là ổn
 
-
+#Lưu ý:
 - Nếu gặp lỗi 10 vui lòng chuyển qua nhóm khác kéo:
-+ Cố kéo sẽ die hết dàn
-- Nếu sang khác(nhóm sạch) mà vẫn bị lỗi 10
-+ Thì đó là do ảnh hưởng của nhóm trước tới acc đó thôi nhé.
++ Cố kéo các tài khoản sẽ bị khóa hết
 Trân trọng!!!
-
-
