@@ -1,0 +1,63 @@
+- Author By Telegram: @ImDinne
+- Creat By D_Software
+- Latest Version: Ultimate 0.1.0
+
+*Group Telegram: https://t.me/D_Telesoft_Support_Vn
+
+
+* Quan trọng [File Api.txt]: 
++ Yêu cầu chỉnh sửa lại tránh tình trạng dùng chung api dẫn tới "Die session"
++ Hướng dẫn lấy Api riêng tại đây: https://www.youtube.com/watch?v=8naENmP3rg4&t=8s
+- Bắt buộc [File Session]:
++ Yêu cầu cần có file session để sử dụng D_TeleSoft
++ Đọc hướng dẫn để biết thêm chi tiết 
+
+
+- Hướng dẫn:
+1. THÊM SESSION VÀO TOOL:
+- Mn thêm các file session vào thư mục Session_Account
+- Thư mục Session_Account: Chứa tất cả các session(Sau khi lọc sẽ chỉ chứa session Good)
+- Thư mục Session_Account_Limit: Chứa tất cả các session đã bị giới hạn bởi Telegram
+- Thư mục Session_Account_Temporary: Chứa tất cả các session đã bị chặn thời hạn bởi Telegram
+- Thư mục Session_Account_Die: Chứa tất cả các session đã bị khóa(chết) bởi Telegram
+
+2. ĐỔI ĐƯỜNG DẪN ĐẾN FILE PROXY RIÊNG
+-> File Proxy hiện tại là của mình, dùng chung có thể làm acc die hoặc limt:
+-> Mn chủ động đổi Proxy cho riêng 
+
+- B1: Chọn nút Path Proxy
+- B2: Chọn file Proxy mình muốn
+Loại User:Pass -> Định dạng bên trong sẽ như thế này 188.74.183.126:8395:ohnykiyp:ykm0iy9ogc64
+Loại Ip:Port -> Định dạng bên trong sẽ như thế này 188.74.183.126:8395
+- B3: Dựa vào loại Proxy bạn chọn tích dấu Ip:Port hoặc User:Pass
+- B4: Save -> Hoàn tất
+
+3. LỌC MEM NHÓM:
+- Lọc loại mem(Mặc định toàn thế giới):
+- Lọc Mem Online(Mặc định 2 ngày) có thể tùy chỉnh 
+- Nút Time Scrape góc phải bên dưới -> Chọn thời gian lọc
+-> Nút Scrape -> Chuyển màu xanh là đã thành công -> Đợi chuyển màu tím là hoàn tất
+- Ví dụ https://t.me/+JJv2Liew6980NDFl hoặc https://t.me/TradeCoinUnderGround
+
+ 4. CÁCH KÉO MEM:
+- B1: Đầu tiên các bạn cần kiểm tra session trước -> Nút Check Live [Add Mem] -> Chọn tài khoản( có thể nhấn nút Chose all[Add Mem]) để chọn tất cả session good
+- B2: Nhập link nhóm(Công khai/Kín) cần kéo vào ô nhập link nhóm thêm mem
+- B3: Chọn Thêm mem bằng Id/User: -> Tích dấu loại chọn(Mặc định là Id)
+- B4: Sau đó là load dữ liệu mem đã lọc -> Nút Load Data File [Load Data]
+- B5: Bắt đầu thêm mem vào nhóm -> Start Add Mem[Add Mem] -> Chuyển màu là đã thành công
+* Dừng thêm mem: -> Stop Add Mem
+* Trong lúc thêm mem mn có thể tùy ý chỉnh các thông số: Delay_Add_Mem, Total_Thread_Add, Limit Add/Session ở phần setting
+
+5. TƯƠNG TÁC ĐƠN/ĐA NHÓM
+- B1: Chuẩn bị kịch bản(Tự tạo riêng hoặc sao chép từ nhóm khác)
+- B2: Sau khi đã chuẩn bị sẵn kịch bản -> Load Data
+- B3: Nhập các link nhóm công khai càn tương tác 
+- B4: Start -> Hoàn tất
+
+6. MỘT SỐ LƯU Ý:
+- Limit Add/Session: Giới hạn(tùy chỉnh) số lượng mem một tài khoản được phép thêm trong một ngày mặc định là 10 member/session/ngày
+- Delay_Add_Mem: Khoảng cách thời gian các lần kéo mem
+- Tất cả các nút màu tím đều có chức năng nhé
+
+Mọi thắc mắc, khó khăn mọi người hỏi trong nhóm. Support bên mình sẽ hỗ trợ
+Trân trọng!!!
