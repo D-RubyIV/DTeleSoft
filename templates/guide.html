@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="text-align: center;">
+        <b style="font-size: 14px;">Thông Tin & Khái Niệm Cơ Bản Phần Mềm</b>
+    </div>
+    <div>
+        <b><p>Một Số Định Nghĩa Viết Tắt</p></b>
+        <b>- Bộ Chức Năng Chuột Phải</b> = BCNCP
+        <br>
+        <br>
+    </div>
+    <div>
+        <div>
+            <div><b>I. Thư Mục Data</b></div>
+            Data Chia Làm Hai Loại: <br>
+            - Data User(Cho PhépTruy Cập Và Chỉnh Sửa) <br>
+            + Bao Gồm (Proxy, Data Lọc Mem...) <br>
+            - Data System(Không Cho Phép Truy Cập Và Chỉnh Sửa) <br>
+            + Bao Gồm (Id Nhóm, Banned Member, Qr Code) <br>
+            - Data Session(Cho Phép Truy Cập Và Chỉnh Sửa) <br>
+            + Bao Gồm (Thông Tin Account Được Mã Hóa Khi Mua Account Của Dion) <br>
+            <br>
+        </div>
+        <div>
+            <div><b>II. Thư Mục Session_Account_All</b></div>
+            - Chứa Thông Tin Các Các Tài Khoản(Tài Nguyên Dạng Session) <br>
+            + Để Sử Dụng Tool Người Dùng Cần Cho Account Vào Đây <br>
+            + Đây Là Thư Mục Chứa Account Mẹ <br>
+            <br>
+        </div>
+        <div>
+            <div><b>II. Thư Mục Session_Distribute</b></div>
+            - Bao Gồm Các Thư Mục Con Sau: <br>
+            1. Session Good: Chứa Tài Khoản Hoạt Động Ở Trạng Thái Tốt(Account Sống) <br>
+            2. Session Limit: Chứa Tài Khoản Bị Giới Hạn Hoạt Động Vĩnh Viễn(Account Sống) <br>
+            3. Session Temp: Chứa Tài Khoản Bị Giới Hạn Hoạt Động Tạm Thời (Account Sống)<br>
+            4. Session Error: Chứa Tài Khoản Bị Lỗi(Account Lỗi) <br>
+            5. Session Die: Chứa Tài Khoản Bị Khóa (Account Chết) <br>
+            
+            <br>
+        </div>
+        <div>
+            <div><b>III. Thư Mục Session_Split</b></div>
+            - Bao Gồm Các Tài Khoản Bị Tách Ra Bởi Bộ Chức Năng Chuột Phải<br>
+            <br>
+        </div>
+        <div>
+            <div><b>IV. Thư Mục Source(Hệ Thống)</b></div>
+            - Chức Phần Mềm Thứ Hai Cho Phép Đăng Nhập Account Với Chức Năng Login(<b>BCNCP</b>)<br>
+            <br>
+        </div>
+        <div>
+            <div><b>V. Thư Mục TData_Account(Hệ Thống)</b></div>
+            - Chứa Các Tài Khoản Định Dạng Tdata Được Tạo Ra Từ Chức Năng Login(<b>BCNCP</b>)<br>
+            <br>
+        </div>
+        <div>
+            <div><b>VI. Tệp History_AddMem.txt</b></div>
+            - Chứa Lịch Sủ Thêm Member<br>
+            <br>
+        </div>
+        <div>
+            <div><b>VII. BCNCP</b></div>
+            - 1. Chọn Tài Khoản<br>
+            - 2. Bỏ Chọn Tài Khoản<br>
+            - 3. Sắp Xếp Session <br>
+            - 4. Làm Mới Lại Danh Sách Tài Khoản <br>
+            - 5. Di Chuyển Các Tệp Session Đã Chọn Sang Thư Mục Session_Split <br>
+            - 6. Đăng Nhập Vào Tài Khoản Thông Qua App Telegram <br>
+            <br>
+        </div>
+
+        <div>
+            <b><br> #Điều khoản</b>
+            <br> - Tuy nhiên, xin vui lòng không sử dụng plugin này vào các mục đích sau đây:
+            <br> + Không sử dụng cho mục đích xấu, như ẩn danh, cờ bạc, giao dịch trái pháp luật, lừa đảo, các mục đích xấu khác nhằm trục lợi, chiếm đoạt, tấn công, hay phá hoại bất cứ tổ chức hoặc cá nhân nào.
+            <br>
+            <br>
+            <b><br>#Từ chối trách nhiệm:</b>
+            <br> - Tác giả của plugin này không chịu trách nhiệm cho mọi hoạt động bất hợp pháp.
+            <br>
+            <br>
+            <b><br> #BẢNG MÃ LỖI:</b>
+            <br> [01] - Cài đặt quyền riêng tư của người dùng không cho phép bạn làm điều này.
+            <br> [02] - Người dùng được cung cấp không phải là người liên hệ chung.
+            <br> [03] - Người dùng không tồn tại.
+            <br> [04] - Lỗi giá trị.
+            <br> [05] - Tài khoản chưa được đăng ký trong hệ thống.
+            <br> [06] - ID đối tượng không hợp lệ cho một người dùng.
+            <br> [07] - Người dùng này đã bị loại khỏi siêu nhóm/kênh này.
+            <br> [08] - Một trong những người dùng mà bạn cố gắng thêm đã ở trong quá nhiều kênh/siêu nhóm.
+            <br> [09] - Bạn bị cấm gửi tin nhắn trong siêu nhóm/kênh.
+            <br> [10] - Tài Khoản Telegram bị quét
+            <br> [11] - Tài khoản bị chặn chức năng tạm thời.
+            <br> [12] - Một trong những người dùng mà bạn cố gắng thêm đã ở trong quá nhiều kênh / siêu nhóm.
+            <br> [13] - You can't write in this chat.(Vui lòng kiểm tra lại link hoặc quyền thêm thành viên của nhóm)
+            <br> [14] - Kênh được chỉ định là riêng tư và bạn không có quyền truy cập vào kênh đó.
+            <br> [15] - Tài khoản đã gửi quá nhiều yêu cầu .
+            <br> [16] - Cần có đặc quyền của quản trị viên trò chuyện để thực hiện điều đó trong cuộc trò chuyện.
+            <br> [17] - DataBaseLock.
+            <br> [18] - Các lỗi khác.
+            <br>Note: Gặp lỗi [10] thường nhóm có khả năng dính spam 90%
+            <br>Khi gặp lỗi này nên dừng để giảm tối thiểu chết tài khoản
+        </div>
+
+    </div>
+    
+</body>
+</html>
